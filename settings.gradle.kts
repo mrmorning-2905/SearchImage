@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SearchImageSplash"
+rootProject.name = "PagingExample"
 include(":app")
  

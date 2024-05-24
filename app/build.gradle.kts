@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.searchimagesplash"
+    namespace = "com.example.paging3"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.searchimagesplash"
+        applicationId = "com.example.paging3"
         minSdk = 32
         targetSdk = 34
         versionCode = 1
