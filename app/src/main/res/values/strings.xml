@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SearchImageSplash</string>
+    <string name="app_name">PagingExample</string>
     <string name="search_hint">search</string>
     <string name="retry">Retry</string>
     <string name="no_results">No Items</string>

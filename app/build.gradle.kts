@@ -27,15 +27,15 @@ android {
         }
 
         debug {
-            val properties = Properties().apply {
-                load(rootProject.file("local.properties").inputStream())
-            }
-
-            buildConfigField(
-                type = "String",
-                name = "UNSPLASH_CLIENT_ID",
-                value = "\"" + properties["UNSPLASH_CLIENT_ID"]!!.toString() + "\"",
-            )
+//            val properties = Properties().apply {
+//                load(rootProject.file("local.properties").inputStream())
+//            }
+//
+//            buildConfigField(
+//                type = "String",
+//                name = "UNSPLASH_CLIENT_ID",
+//                value = "\"" + properties["UNSPLASH_CLIENT_ID"]!!.toString() + "\"",
+//            )
         }
     }
     compileOptions {
